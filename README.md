@@ -29,39 +29,45 @@ The dataset includes customer usage and subscription-related features.
 
 
 ⚙️ Machine Learning Workflow
+
 1️⃣ Data Preprocessing
-Data cleaning and validation
+
+- Data cleaning and validation
 
 
-Feature selection based on business importance
+- Feature selection based on business importance
 
 
-Train-test split to evaluate model generalization
+- Train-test split to evaluate model generalization
 
 
 2️⃣ Model Building
+
 Multiple supervised ML models are considered:
-Logistic Regression (baseline model)
+
+- Logistic Regression (baseline model)
 
 
-K-Nearest Neighbors (KNN)
+- K-Nearest Neighbors (KNN)
 
 
-Random Forest Classifier
+- Random Forest Classifier
 
 
 3️⃣ Model Evaluation
+
 Models are assessed using:
-Accuracy
+
+- Accuracy
 
 
-Precision
+- Precision
 
 
-Recall
+- Recall
 
 
-Confusion Matrix
+- Confusion Matrix
 
 
 These metrics help balance overall performance with the ability to correctly detect churners.
@@ -100,39 +106,52 @@ False Negatives (FN): Missed churners → direct revenue loss 🚨
 Priority: Minimize False Negatives to prevent unexpected customer loss.
 
 📊 Key Business Insights
+
 💡 Engagement Drives Retention
+
 Customers with low usage and long inactivity are more likely to churn.
+
  Action: Re-engagement campaigns and personalized recommendations.
+ 
 💡 New Customers Are High Risk
+
 Users with short tenure churn more.
+
  Action: Strong onboarding and early support.
+
 💡 Payment Issues Trigger Churn
+
 Frequent payment failures strongly correlate with churn.
+
  Action: Improve billing reliability and reminders.
+
 💡 Churn Is Predictable
+
 Churn is driven by behavioral patterns, not random events.
+
  Action: Use predictive systems for proactive retention.
 
 ⚠️ Model Observation: Overfitting
 
 The model shows signs of overfitting — high training performance but reduced performance on unseen data.
+
 Potential Solutions:
 
-Cross-validation
-
-
-Hyperparameter tuning
-
-
-Regularization
-
-
-Feature reduction
+- Cross-validation
+ 
+ 
+- Hyperparameter tuning
+ 
+ 
+- Regularization
+ 
+ 
+- Feature reduction
 
 
 This highlights awareness of real-world ML challenges.
 
-☁️ How This Would Work in Production
+☁️ **How This Would Work in Production**
 
 Step 1: Data Collection
 
@@ -167,8 +186,11 @@ Automated pipelines compute:
 
 
 Step 3: Prediction System
+
 Customer Data → Feature Processing → ML Model → Churn Risk Score
+
 Each customer receives a probability score indicating churn risk.
+
 Step 4: Business Action Layer
 | Risk Level  | Action                                   |
 | ----------- | ---------------------------------------- |
@@ -228,6 +250,7 @@ If implemented, this system can:
  ✔ Enable proactive decision-making
  
 
-📌 Conclusion
+📌 **Conclusion**
+
 This project demonstrates how machine learning can convert customer usage data into actionable business intelligence. By predicting churn early, organizations can shift from reactive to proactive customer retention strategies.
 
