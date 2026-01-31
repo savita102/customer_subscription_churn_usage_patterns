@@ -28,7 +28,7 @@ The dataset includes customer usage and subscription-related features.
 | Churn (Target)    | Whether the customer left (1) or stayed (0) | Prediction target                  |
 
 
-⚙️ Machine Learning Workflow
+⚙️ **Machine Learning Workflow**
 
 1️⃣ Data Preprocessing
 
@@ -72,7 +72,7 @@ Models are assessed using:
 
 These metrics help balance overall performance with the ability to correctly detect churners.
 
-📈 Model Comparison
+📈 **Model Comparison**
 | Model               | Accuracy        | Precision | Recall   | Strengths                                         | Limitations                                |
 | ------------------- | --------------- | --------- | -------- | ------------------------------------------------- | ------------------------------------------ |
 | Logistic Regression | Moderate        | Good      | Moderate | Simple, interpretable baseline                    | Limited with complex non-linear patterns   |
@@ -82,7 +82,7 @@ These metrics help balance overall performance with the ability to correctly det
 
 Final Model Choice: Random Forest due to strong ability to model complex customer behavior patterns.
 
-🖼 Confusion Matrix Explanation
+🖼 **Confusion Matrix Explanation**
 
 
 |                   | Predicted: Stay      | Predicted: Churn     |
@@ -90,7 +90,8 @@ Final Model Choice: Random Forest due to strong ability to model complex custome
 | **Actual: Stay**  | True Negatives (TN)  | False Positives (FP) |
 | **Actual: Churn** | False Negatives (FN) | True Positives (TP)  |
 
-Business Meaning
+**Business Meaning**
+
 True Positives (TP): Correctly identified churners → retention actions possible
 
 
@@ -105,7 +106,7 @@ False Negatives (FN): Missed churners → direct revenue loss 🚨
 
 Priority: Minimize False Negatives to prevent unexpected customer loss.
 
-📊 Key Business Insights
+📊 **Key Business Insights**
 
 💡 Engagement Drives Retention
 
@@ -211,7 +212,7 @@ Continuous improvement cycle
 
 
 
-🧠 Skills Demonstrated
+🧠 **Skills Demonstrated**
 
 Data preprocessing
 
@@ -235,7 +236,7 @@ Production-level ML thinking
 
 
 
-🚀 Business Impact
+🚀 **Business Impact**
 
 If implemented, this system can:
 
