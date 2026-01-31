@@ -249,7 +249,16 @@ If implemented, this system can:
  ✔ Increase subscription revenue
  
  ✔ Enable proactive decision-making
- 
+
+
+**Limitations**:
+
+Model may not generalize to different user populations
+
+Dataset size may limit learning complex behavior
+
+Behavioral trends can change over time (concept drift)
+
 
 📌 **Conclusion**
 
